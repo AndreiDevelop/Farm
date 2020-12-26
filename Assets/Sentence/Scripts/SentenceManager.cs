@@ -7,6 +7,7 @@ public class SentenceManager : MonoBehaviour
 {
     [SerializeField] private Animator _scrollAnimator;
     [SerializeField] private Material _defaultWordMaterial;
+    [SerializeField] private Vector3 _defaultWordScale = new Vector3(2, 2, 2);
 
     [Header("Sentences")]
     [SerializeField] private Sentence _sentencePrefab;
@@ -50,7 +51,7 @@ public class SentenceManager : MonoBehaviour
 
         await Task.Delay(1000);
 
-        sentence.transform.localScale = new Vector3(2, 2, 2);
+        sentence.transform.localScale = _defaultWordScale;
     }
 
     public void ShowSentence()
