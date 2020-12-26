@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="zebra" size="1.000000 1.270023" />
+    <ImageTarget name="yacht" size="1.000000 1.270023" />
+    <ImageTarget name="xylophone" size="1.000000 1.270023" />
+    <ImageTarget name="wolf" size="1.000000 1.270023" />
+    <ImageTarget name="violin" size="1.000000 1.270023" />
+    <ImageTarget name="umbrella" size="1.000000 1.270023" />
+    <ImageTarget name="tea" size="1.000000 1.270023" />
+    <ImageTarget name="spider" size="1.000000 1.270023" />
+    <ImageTarget name="rabbit" size="1.000000 1.270023" />
+    <ImageTarget name="quill" size="1.000000 1.270023" />
+    <ImageTarget name="pen" size="1.000000 1.270023" />
+    <ImageTarget name="orange" size="1.000000 1.270023" />
+    <ImageTarget name="nuts" size="1.000000 1.270023" />
+    <ImageTarget name="milk" size="1.000000 1.270023" />
+    <ImageTarget name="lion" size="1.000000 1.270023" />
+    <ImageTarget name="key" size="1.000000 1.270023" />
+    <ImageTarget name="juice" size="1.000000 1.270023" />
+    <ImageTarget name="island" size="1.000000 1.270023" />
+    <ImageTarget name="horse" size="1.000000 1.270023" />
+    <ImageTarget name="giraffe" size="1.000000 1.270023" />
+    <ImageTarget name="fish" size="1.000000 1.270023" />
+    <ImageTarget name="eagle" size="1.000000 1.270023" />
+    <ImageTarget name="dinosaur" size="1.000000 1.270023" />
+    <ImageTarget name="cow" size="1.000000 1.270023" />
+    <ImageTarget name="bee" size="1.000000 1.270023" />
+    <ImageTarget name="apple" size="1.000000 1.270023" />
+  </Tracking>
+</QCARConfig>
