@@ -12,12 +12,12 @@ public class SentenceManagerEditor : Editor
 
         if (GUILayout.Button("Generate Sentences"))
         {
-            myScript.GenerateSentences();
+            myScript.GenerateSentencesEditor();
         }
 
         if (GUILayout.Button("Clear Sentences"))
         {
-            myScript.ClearSentences();
+            myScript.ClearSentencesEditor();
         }
     }
 }
