@@ -22,7 +22,11 @@ public class Sentence: MonoBehaviour
     {
         foreach (var word in _wordsOrder)
         {
-           word.OnClick += TapOnWord;   
+           word.OnClick += TapOnWord;
+            if (word.WordString.Equals(_wordsOrder[_currentWordIndex].WordString))
+            {
+
+            }
         }
     }
 

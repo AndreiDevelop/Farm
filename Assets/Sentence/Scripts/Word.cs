@@ -48,6 +48,7 @@ public class Word : MonoBehaviour
     {
         _bodyTransform.gameObject.SetActive(true);
         ChangeMaterial(_wordDefaultMaterial);
+        WordTips(false);
     }
 
     protected virtual void OnMouseDown()
@@ -65,6 +66,11 @@ public class Word : MonoBehaviour
     {
         _simpleHelvetica.MeshRenderer.material = material;
         _simpleHelvetica.ApplyMeshRenderer();
+    }
+
+    private void WordTips(bool setActive)
+    {
+
     }
 
     #region Editor
